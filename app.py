@@ -156,7 +156,7 @@ def main():
             with st.spinner("Processing"):
 
                 # get documents
-                documents = load_text_and_get_chunks(path_to_pdfs="./sample_data/pdfs")
+                documents = load_text_and_get_chunks(path_to_pdfs="./data")
                 
                 # get llm
                 llm = load_llm()
